@@ -163,6 +163,7 @@ hr {
   font-size: 18px;
 }
 .btn-custom {
+  /*
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
@@ -176,7 +177,51 @@ hr {
   border-radius: 25px;
   transition: all 0.5s linear;
   border: 0;
+  */
+  font-size: 1.4em;
+  padding: 0.6em 0.8em;
+  border-radius: 0.5em;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #000000b4;
 }
+
+
+
+div.container.btn {
+  position: relative;
+  padding: 3px;
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  border-radius: 0.9em;
+  transition: all 0.4s ease;
+}
+
+div.container.btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  border-radius: 0.9em;
+  z-index: -10;
+  filter: blur(0);
+  transition: filter 0.4s ease;
+}
+
+div.container.btn:hover::before {
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  filter: blur(1.2em);
+}
+div.container-btn:active::before {
+  filter: blur(0.2em);
+}
+
+
+
+
+/*
+
 .btn-custom:hover,
 .btn-custom:focus,
 .btn-custom.focus,
@@ -202,13 +247,13 @@ a:focus,
 .btn.active.focus {
   outline: none;
   outline-offset: none;
-}
+}*/
 /* Header Section */
 .intro {
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/car11.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -241,7 +286,7 @@ a:focus,
 }
 header .intro-text {
   padding-top: 350px;
-  padding-bottom: 200px;
+  padding-bottom: 150px;  /*check*/
   text-align: center;
 }
 /* Features Section */
