@@ -188,34 +188,57 @@ hr {
   box-shadow: 2px 2px 3px #000000b4;
 }
 
-
-
-div.container.btn {
+/* Container for the button */
+.container-btn {
   position: relative;
-  padding: 3px;
-  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  display: inline-block;
+  padding: 5px; /* Adjust padding to create space for the outline effect */
   border-radius: 0.9em;
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
   transition: all 0.4s ease;
 }
 
-div.container.btn::before {
+.container-btn::before {
   content: "";
   position: absolute;
   inset: 0;
-  margin: auto;
   border-radius: 0.9em;
-  z-index: -10;
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  z-index: -1;
   filter: blur(0);
   transition: filter 0.4s ease;
 }
 
-div.container.btn:hover::before {
-  background: linear-gradient(90deg, #03a9f4, #f441a5);
+.container-btn:hover::before {
   filter: blur(1.2em);
 }
-div.container-btn:active::before {
+
+.container-btn:active::before {
   filter: blur(0.2em);
 }
+
+/* Styling for the button itself */
+.btn-custom {
+  font-size: 1.4em;
+  padding: 0.6em 0.8em;
+  border-radius: 0.5em;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #000000b4;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.btn-custom:hover {
+  background-color: #ffffff; /* Darker background on hover for a subtle effect */
+  color: black;
+}
+
 
 
 
