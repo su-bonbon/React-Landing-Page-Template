@@ -1,21 +1,21 @@
 {
   "Header": {
     "title": "G5: BEST quality of service",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "paragraph": "Discover the ultimate car buying experience at our customized car dealership, where we tailor every detail to match your unique preferences and lifestyle. Drive away in your dream car, personalized just for you, with our expert team guiding you every step of the way."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "At G5, we understand the unique challenges faced by car dealerships in today's competitive landscape. That's why we've developed a comprehensive full-stack application specifically tailored to the needs of dealerships, empowering them to streamline operations, enhance customer experience, and drive business growth.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Robust Database",
+      "Powerful APIs",
+      "User-Friendly Web Interface",
+      "Optimize inventory management"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Enhance customer relationship management (CRM)",
+      "Streamline sales processes",
+      "Gain valuable insights",
+      "Empowering Car Dealerships for Success"
     ]
   },
   "Gallery": [
@@ -67,34 +67,34 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-search",
+      "name": "Personalized Vehicle Search",
+      "text": "This service goes beyond just browsing inventory. Dealers can offer a questionnaire or consultation to understand a customer's specific needs and preferences (budget, desired features, usage)."
+    },
+    {
+      "icon": "fa fa-road",
+      "name": "Customizable Test Drives",
+      "text": "Not everyone wants a standard test drive route. This service allows customers to choose a route that reflects their typical driving or even bring along specific items they often transport to test for fit."
+    },
+    {
+      "icon": "fa fa-money",
+      "name": "Tailored Financing Options",
+      "text": "Understanding a customer's financial situation allows for presenting financing options that best suit their needs.This could include extended warranties, gap insurance, or special low-interest rates for qualified buyers."
+    },
+    {
+      "icon": "fa fa-dropbox",
+      "name": "Pre-Delivery Customization:",
+      "text": "Many dealerships offer basic customization like window tinting or floor mats. This service takes it further by allowing customers to pre-order specific accessories or even schedule in-house installation."
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Post-Purchase Concierge Service",
+      "text": "This service goes beyond a simple owner's manual. A dedicated staff member can be assigned to new car owners, available to answer questions, schedule service appointments, and even help connect them to car wash or detailing services."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-key",
+      "name": "Vehicle Trade-In Assistance",
+      "text": "Trading in a used car can be a complex process. This service streamlines the experience by offering on-site appraisals, competitive market pricing, and handling all the paperwork associated with the trade-in."
     }
   ],
   "Testimonials": [
@@ -132,23 +132,33 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
+      "name": "Richard",
       "job": "Director"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
+      "name": "Sujin",
       "job": "Senior Designer"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
+      "name": "Gene",
       "job": "Senior Designer"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
+      "name": "Gary",
       "job": "Project Manager"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Ritika",
+      "job": "Project Manager"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "You",
+      "job": "Future Crew"
     }
   ],
   "Contact": {
@@ -156,29 +166,29 @@
     "phone": "+1 (972) 883-2111",
     "email": "support@g5.com",
     "facebook": "facebook.com",
-    "twitter": "x.com",
+    "instagram": "instagram.com",
     "youtube": "youtube.com"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-car",
+      "title": "Customizing Car",
+      "text": "Build your own custom luxury car to fit your needs. Build and price a luxury sedan, SUV, convertible, & more with Mercedes-Benz car customizer."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-thumbs-up",
+      "title": "Best Servive",
+      "text": "Your trusted partner for car repair and maintenance and service. Better than the dealer auto service - maintenance & repair experts for cars and trucks."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Best Trained technicians",
+      "text": "Certified car mechanics: Your trusted partner for car repair and maintenance and service."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Fabulous outcome",
+      "text": "you will be surprised."
     }
   ]
 }
